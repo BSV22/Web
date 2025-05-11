@@ -1,0 +1,11 @@
+.qw{
+    color: red;
+    background-color: yellow;
+}
+.as{
+    color: black;
+}
+/*#12 cant be used*/
+#di{
+    background-color: rgb(201, 201, 167);
+}
