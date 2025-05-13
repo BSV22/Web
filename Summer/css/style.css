@@ -1,0 +1,24 @@
+.login{
+    outline: none;
+    color: rgb(5, 65, 65);
+}
+.box{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+.box1{
+    color: rgb(45, 11, 238);
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.box2{
+     color: rgb(45, 11, 238);
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid rgb(4, 0, 240);
+    box-sizing: border-box;
+}
+}
