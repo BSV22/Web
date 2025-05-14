@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid black;
+    /* width: 2303px; */
+    background-color: aqua;
+    /* box-sizing: border-box; */
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+.com{
+     border: 2px solid black;
+    /* width: 2303px; */
+    background-color: aqua;
+    /* box-sizing: border-box; */
+    width: 80vw;
+    margin:20px auto;
+    height: 80vh;
+    /* margin: auto; */
+    font-size: 10px;
+    border-radius: 20px;
+}
+div p{
+    font-size: 2em;
+}
+.cont{
+    color: red;
+    background-color: aqua;
+    width: 100vmin;
+}

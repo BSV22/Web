@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersice-4</title>
+    <style>
+        :root {
+            --optd: rgb(27, 24, 24);
+            --bacd: rgb(216, 118, 211);
+            --optn: rgb(175, 177, 187);
+            --bacn: rgb(32, 22, 66);
+        }
+
+        @media screen and (max-width: 422px) {
+            body {
+                background-color: black;
+            }
+
+            div {
+                background-color: var(--bacn);
+            }
+
+            div ul li {
+                color: var(--optn);
+            }
+
+            ul li {
+                border: 2px solid var(--optd);
+            }
+        }
+
+        body {
+            background-color: rgb(182, 167, 167);
+        }
+
+        div {
+            background-color: var(--bacd);
+        }
+
+        div ul li {
+            color: var(--optd);
+        }
+
+        ul li {
+            border: 2px solid var(--optd);
+            display: block;
+            padding: 10px 20px;
+            margin: 20px;
+            border-radius: 9px;
+            background-color: var(--bacd);
+            /* background-color: aqua; */
+            /* position: relative;
+            left: 60vw; */
+        }
+
+        ul li:hover {
+            background-color: rgb(110, 165, 165);
+        }
+
+        ul {
+            display: flex;
+            /* margin: 20px; */
+            background-color: rgb(90, 86, 86);
+            border-radius: 9px;
+            padding: 0px 0px 0px 75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+</body>
+
+</html>

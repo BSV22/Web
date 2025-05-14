@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card UI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 300px;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .tags {
+      margin-top: 15px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #eef2f6;
+      color: #555;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #111;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #e0e8f9;
+      color: #3461ff;
+      padding: 8px 16px;
+      font-size: 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+    }
+
+    .read-more:hover {
+      background-color: #d0dbf9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=800&q=80" alt="Lago di Braies" />
+    <div class="tags">
+      <span class="tag">Nature</span>
+      <span class="tag">Lake</span>
+    </div>
+    <h2>Lago di Braies</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+    <a href="#" class="read-more">Read More</a>
+  </div>
+
+</body>
+</html>

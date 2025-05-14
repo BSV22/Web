@@ -5,41 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
+        * {
+            font-family: 'Montserrat';
+        }
+
         .out {
-            border: 2px solid black;
-            height: 500px;
+            border: 2px solid rgb(223, 221, 221);
+            height: 510px;
             width: 400px;
             position: relative;
             left: 0px;
+            background-color: white;
+            margin: auto;
+            border-radius: 20px;
         }
-        /* img{
-            position: relative;
-            
-        } */
-         span{
-            border: 2px solid gray;
-            margin: 20px;
-            border-radius: 10px;
-            position: relative;
-            left: 20px
 
-         }
+        body {
+            background-color: azure;
+        }
+
+        img {
+            position: relative;
+            top: 20px;
+            left: 25px;
+            border-radius: 30px;
+
+        }
+
+        li {
+            border: 2px solid rgb(235, 234, 234);
+            margin: 20px;
+            padding: 4px 10px;
+            border-radius: 20px;
+            position: relative;
+            left: -20px;
+            display: inline-block;
+            color: rgb(122, 125, 128);
+            background-color: rgb(239, 242, 245);
+        }
+
+        .butt {
+            /* margin: auto;
+            color: rgb(4, 86, 124);
+            /* background-color: rgb(124, 192, 231); */
+            /* border-radius: 10px;
+            padding: 10px;
+            position: relative;
+            text-align: center;
+            border-color: rgb(124, 192, 231); */ 
+            text-align: center;
+            
+            
+        }
+        .butt button{
+            background-color: rgb(124, 214, 255);
+            padding: 7px 16px;
+            border-radius: 9px;
+            border: none;
+            color: rgb(15, 15, 126);
+    
+        }
+        .text {
+            width: 350px;
+            position: relative;
+            left: 16px;
+        }
     </style>
 </head>
 
-<body
+<body>
     <div class="out">
         <div class="image">
-            <img src="image.png" height="200"  alt="">
+            <img src="https://thumbs.dreamstime.com/b/lake-mountain-landscape-water-nature-mountains-sky-reflection-blue-forest-summer-river-green-clouds-travel-view-tr-tree-park-119212920.jpg"
+                height="200" width="350" alt="image">
         </div>
-        <span>
-            Nature
-        </span>
-        <span>
-            Lake
-        </span>
+        <ul>
+            <li>Nature</li>
+            <li>lake</li>
+        </ul>
+        <div class="text">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p style="color: rgb(121, 126, 131);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed,
+                numquam voluptates fuga enim quis id
+                sequi, illum veniam dolorum pariatur, quisquam odit?
+            </p>
+        </div>
+        <div class="butt">
+            <button id="button">Read More</button>
+        </div>
+
     </div>
+
 </body>
 
 </html>
