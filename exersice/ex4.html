@@ -10,35 +10,18 @@
             --optd: rgb(27, 24, 24);
             --bacd: rgb(216, 118, 211);
             --optn: rgb(175, 177, 187);
-            --bacn: rgb(32, 22, 66);
+            --bacn: #161b22;
         }
 
-        @media screen and (max-width: 422px) {
-            body {
-                background-color: black;
-            }
-
-            div {
-                background-color: var(--bacn);
-            }
-
-            div ul li {
-                color: var(--optn);
-            }
-
-            ul li {
-                border: 2px solid var(--optd);
-            }
-        }
-
+        
         body {
             background-color: rgb(182, 167, 167);
         }
-
+        
         div {
             background-color: var(--bacd);
         }
-
+        
         div ul li {
             color: var(--optd);
         }
@@ -50,21 +33,64 @@
             margin: 20px;
             border-radius: 9px;
             background-color: var(--bacd);
-            /* background-color: aqua; */
-            /* position: relative;
-            left: 60vw; */
+
         }
 
         ul li:hover {
             background-color: rgb(110, 165, 165);
+            box-shadow: 2px 2px;
         }
 
         ul {
             display: flex;
-            /* margin: 20px; */
+
             background-color: rgb(90, 86, 86);
             border-radius: 9px;
             padding: 0px 0px 0px 75px;
+            box-shadow: 4px 5px;
+        }
+        @media only screen and (min-width: 225px) {
+            body {
+                background-color: rgb(10, 10, 10);
+            }
+
+
+            div ul li {
+                color: var(--optn);
+            }
+
+            ul li {
+                border: 2px solid var(--optd);
+            }
+
+            
+
+            div ul li {
+                color: var(--optd);
+            }
+
+            ul li {
+                border: 2px solid var(--optd);
+                display: block;
+                padding: 10px 20px;
+                margin: 20px;
+                border-radius: 9px;
+                background-color: var(--bacd);
+
+            }
+
+            ul li:hover {
+                background-color: rgb(110, 165, 165);
+                box-shadow: 2px 2px;
+            }
+
+            ul {
+                display: flex;
+                background-color: #161b22;
+                border-radius: 9px;
+                padding: 0px 0px 0px 75px;
+                box-shadow: 4px 5px;
+            }
         }
     </style>
 </head>

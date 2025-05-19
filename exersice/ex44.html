@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --nav_but_d: rgb(110, 197, 110);
+            --font_d: rgb(24, 24, 24);
+            --nav_but_n: rgb(216, 210, 210);
+            --body_d: rgb(216, 231, 131);
+            --nav_n: rgb(44, 41, 41);
+            --body_n: rgb(12, 12, 12);
+        }
+        
+        body {
+            background-color: var(--body_n);
+        }
+
+        div {
+            border: 2px solid var(--nav_n);
+            background-color: var(--nav_n);
+            border-radius: 9px;
+        }
+        
+        ul {
+            display: flex;
+            padding: 2px;
+            margin: 5px;
+        }
+
+        li:hover {
+            background-color: rgb(74, 196, 90);
+            border: 2px solid rgb(74, 196, 90);
+        }
+
+        li {
+            border: 2px solid var(--nav_but_n);
+            padding: 9px;
+            margin: 9px;
+            list-style: none;
+            border-radius: 7px;
+            background-color: var(--nav_but_n);
+        }
+        @media (min-width:638px) {
+            body {
+                background-color: var(--body_d);
+            }
+
+            div {
+                border: 2px solid var(--nav_n);
+                background-color: rgb(53, 45, 46);
+                border-radius: 9px;
+            }
+
+            ul {
+                display:flex;
+                padding: 2px;
+                margin: 5px;
+            }
+
+            li:hover {
+                background-color: rgb(31, 206, 230);
+                border: 2px solid rgb(31, 206, 230);
+                /* border-radius: 20px; */
+            }
+
+            li {
+                border: 2px solid var(--nav_but_d);
+                padding: 9px;
+                margin: 9px;
+                list-style: none;
+                border-radius: 7px;
+                background-color: var(--nav_but_d);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><b>Home</b></li>
+            <li><b>About</b></li>
+            <li><b>Contacts</b></li>
+        </ul>
+    </div>
+</body>
+
+</html>
