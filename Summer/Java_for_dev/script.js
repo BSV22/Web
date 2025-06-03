@@ -30,3 +30,16 @@ console.log(`Hi \nI am ${myname} and my brothers name is ${bro}`)
 // console.log(myname.charAt(0))
 // console.log(myname.charAt(110))
 // console.log(myname.startsWith('B'))
+
+
+// function sum(a, b, c = 3) {
+//     return a + b + c
+// }
+// r = sum(2)
+// console.log(r)
+
+// const func1 = (x)=>{
+//     console.log("I am a arrow function ", x)
+// }
+// func1(2)
+
