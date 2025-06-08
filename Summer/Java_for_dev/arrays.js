@@ -36,3 +36,34 @@ numbers.slice(2,4)
 console.log(numbers)
 console.log(numbers.slice(2,4))
 console.log(numbers)
+
+let new_arr=[]
+let ba= [1,43,24,434,24,3]
+for (let index = 0; index < ba.length; index++) {
+    const element = ba[index];
+    new_arr.push(element**2)
+    console.log(new_arr)
+}
+
+let new_b=arr.map(e=>{
+    return e**2
+})
+console.log(new_b)
+
+
+const greaterThan7=(e)=>{
+    if ( e> 7)
+        return true
+    return false
+}
+
+console.log(new_b.filter(greaterThan7))
+
+
+let fac=[1,2,3,4,5,6,7]
+const red= (a,b)=>{
+    return a*b
+}
+console.log(fac.reduce(red))
+
+console.log(Array.from("Basavakiran"))
